@@ -6,7 +6,9 @@ namespace Lesson2isa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var array = new int[10] { 1, 5, 7, 8, 2, 9, 1, 3, 4, 4 };
+            Console.WriteLine(ArrayHelper.SecondMax(array));
+            Console.ReadKey();
         }
     }
 }
